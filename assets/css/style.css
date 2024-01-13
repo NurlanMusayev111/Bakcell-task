@@ -1,0 +1,311 @@
+
+
+
+.nav-link{
+    color: black;
+    
+}
+
+.navbar-up{
+    border: 1px solid black;
+}
+
+
+.nav-item-one{
+    display: flex;
+}
+
+.nav-item-one i{
+    margin-top: 12px;
+}
+
+.nav-item-one a{
+    margin-left: -12px;
+}
+
+.nav-item-two{
+    display: flex   ;
+}
+
+.nav-item-two i{
+    margin-top: 12px;
+}
+
+.nav-item-two a{
+    margin-left: -12px;
+}
+
+
+.nav-up-lang{
+    height: 25px;
+    width: 50px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.nav-up-lang h5{
+    color: gray;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-left: 8px;
+
+}
+
+
+.nav-up-mode{
+    display: flex;
+    height: 25px;
+    width: 50px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+
+.nav-up-mode i:first-child{
+    color: red;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+
+.nav-up-mode i:last-child{
+    color: gray;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+
+
+
+.navbar-down{
+    border: 1px solid black;
+    height: 50px;
+    width: 100%;
+}
+
+
+
+.navbar-down-left{
+    display: flex;
+    border: 1px solid red;
+    height: 50px;
+}
+
+
+.navbar-down-left-logo img{
+    margin-top: 14px;
+}
+
+
+.navbar-down-left-header{
+    display: flex;
+}
+
+.navbar-down-left-header h4{
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 17px;
+    margin-left: 21px;
+    transition: all 0.4s ease;
+}
+
+
+.navbar-down-left-header h4:hover{
+    color: red;
+}
+
+.navbar-down-right{
+    position: relative;
+}
+
+.navbar-down-right i{
+    font-size: 22px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+
+.navbar-down-right h5{
+    position: absolute;
+    display: inline-block;
+    font-size: 14px;
+    top: 42%;
+    left: 20%;
+    color: red;
+}
+
+.navbar-down-right h6{
+    position: absolute;
+    display: inline-block;
+    font-size: 14px;
+    top: 44%;
+    left: 50%;
+    color: red;
+}
+
+
+
+#slider{
+    position: relative;
+    height: 650px;
+    border: 1px solid black;
+    width: 100%;
+    background-color: #E00034;
+}
+
+#slider img{
+    position: absolute;
+    left: 56%;
+}
+
+#slider h1{
+    font-size: 70px;
+    font-family: 'Priva', sans-serif;
+    color: whitesmoke;
+    position: absolute;
+    top: 20%;
+    left: 16%;
+}
+
+
+#slider button{
+    background-color: whitesmoke;
+    color: red;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    font-family: 'Priva', sans-serif;
+    position: absolute;
+    top: 55%;
+    left: 16%;
+}
+
+
+#info{
+    height: 900px;
+    border: 1px solid red;
+
+}
+
+
+.info-header{
+    position: relative;
+    border: 1px solid red;
+    height: 100px;
+    width: 800px;
+    top: 14%;
+    left: 15%;
+
+}
+
+.info-header h1{
+    display: inline-block;
+    position: absolute;
+    top: 2%;
+    left: 7%;
+    
+}
+
+
+.cart-info{
+    height: 650px;
+    width: 80%;
+    border: 1px solid black;
+    margin-top: 130px;
+    margin-left: 180px;
+    display: flex;
+}
+
+
+.cart-info-left{
+    height: 490px;
+    width: 390px;
+    margin-left: 105px;
+    margin-top: 25px;
+    border: 1px solid black;
+}
+
+.cart-info-left h2{
+    font-family: 'Priva', sans-serif;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cart-info-left h4{
+    font-size: 15px;
+    color: gray;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+
+
+.cart-info-left-internet{
+    position: relative;
+    height: 55px;
+    width: 140px;
+    border: 1px solid red;
+    margin-left: 8px;
+}
+
+
+.cart-info-left-internet i{
+    color: gray;
+    font-size: 35px;
+    margin-top: 8px;
+}
+
+.cart-info-left-internet h5{
+    position: absolute;
+    display: inline-block;
+    color: gray;
+    top: 10%;
+    left: 30%;
+}
+
+.cart-info-left-internet h6{
+    display: inline-block;
+    position: absolute;
+    top: 48%;
+    margin-left: 7px;
+}
+
+
+.cart-info-left-call{
+    position: relative;
+    height: 55px;
+    width: 280px;
+    border: 1px solid red;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.cart-info-left-call i{
+    color: gray;
+    font-size: 35px;
+    margin-top: 8px;
+}
+
+.cart-info-left-call h5{
+    position: absolute;
+    display: inline-block;
+    color: gray;
+    top: 10%;
+    left: 15%;
+}
+
+.cart-info-left-call h6{
+    display: inline-block;
+    position: absolute;
+    top: 53%;
+    margin-left: 7px;
+}

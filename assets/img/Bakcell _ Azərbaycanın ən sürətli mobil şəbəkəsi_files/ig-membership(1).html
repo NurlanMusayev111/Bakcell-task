@@ -1,0 +1,38 @@
+
+<!-- saved from url=(0153)https://ams.creativecdn.com/ig-membership?ntk=oCqsADbK1P_i8x5JcDAurjosshiRke4zMg9raQnTtJbh03l4_mB6-3nUWnH8fgCmDAcK246GstJjVevdDwnEunrbaT6lL7MZG5crqg5k8V4 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>
+<script>
+    if (navigator.joinAdInterestGroup) {
+        const addIgScript = document.createElement('script');
+        let src = null;
+        if (navigator.runAdAuction) {
+            if (window.FencedFrameConfig || 'src' in document.createElement('fencedframe')) {
+                src = 'https://ams.creativecdn.com/ig-membership?ntk=uN64y5Vdq2PNUeWfSz3hnVl-d0NXIJ8UDgAAVv2sTv51Kn8xzFOtOp_3KVvVYBKEgYBhh5mt_yE9HCmagmjVmlpOfcMYHSoV8svY4_vAV2s';
+            } else {
+                src = 'https://ams.creativecdn.com/ig-membership?ntk=uN64y5Vdq2PNUeWfSz3hnVl-d0NXIJ8UDgAAVv2sTv51Kn8xzFOtOp_3KVvVYBKEgYBhh5mt_yE9HCmagmjVmgE5NHidoQbklRaFC0Q7avI';
+            }
+        } else {
+            if (window.FencedFrameConfig || 'src' in document.createElement('fencedframe')) {
+                src = 'https://ams.creativecdn.com/ig-membership?ntk=uN64y5Vdq2PNUeWfSz3hnVl-d0NXIJ8UDgAAVv2sTv51Kn8xzFOtOp_3KVvVYBKEgYBhh5mt_yE9HCmagmjVmqhAZIGafcZ3c1QWvrh4eVs';
+            } else {
+                src = 'https://ams.creativecdn.com/ig-membership?ntk=uN64y5Vdq2PNUeWfSz3hnVl-d0NXIJ8UDgAAVv2sTv51Kn8xzFOtOp_3KVvVYBKEgYBhh5mt_yE9HCmagmjVms4LizpxZQchT3IlMn629pY';
+            }
+        }
+
+        if ('cookieDeprecationLabel' in navigator) {
+            navigator.cookieDeprecationLabel.getValue().then((label) => {
+                if (label) {
+                    src += "&lbl=" + label;
+                }
+
+                addIgScript.setAttribute('src', src);
+                document.body.appendChild(addIgScript);
+            });
+        } else {
+            addIgScript.setAttribute('src', src);
+            document.body.appendChild(addIgScript);
+        }
+    }
+</script><script src="./ig-membership"></script>
+
+</body></html>
